@@ -1,0 +1,63 @@
+
+.post{
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+
+.post_image{
+    width: 100%;
+    object-fit: contain;
+    border-top:  1px solid lightgray;
+    border-bottom:  1px solid lightgray;
+
+}
+.post_text{
+    font-weight: normal;
+    padding: 20px;
+}
+.post_header{
+    display: flex; /*in flexbox by default flexdirection is row*/
+    align-items: center;
+    padding: 20px;
+    
+}
+.post_avatar{
+    margin-right: 10px;
+}
+.commentbox{
+    display: flex;
+    margin-top: 10px;
+    border-top: 1px solid gray;
+}
+
+.post_comment{
+  
+    border: none;
+ 
+    padding: 10px;
+    flex: 1;/*if we have more than one div in a container then we can set which div take more place by setting flex:1 2 34 etc*/
+}
+.commentbtn{
+    flex:0;
+  border: none;
+  background-color: none;
+  opacity: 0.5;
+  color: red;
+  background-color: white;
+}
+.commentbtn:hover{
+   opacity: 1;
+}
+
+.comment_input{
+    font-weight: normal;
+    
+   margin-left:20px ;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
